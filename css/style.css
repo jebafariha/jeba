@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+    background: url(../image/banner1.png) no-repeat;
+    background-size: cover;
+    
+
+}
+.nav-head{
+    
+}
+.side{
+    margin-left: 100px;
+}
+.nav-link{
+    color: #fff ;
+}
+.us h2{
+    color: white;
+    margin-top: 30px;
+}
+.us p{
+    color: white;
+    margin-bottom:40px; 
+}
+.btn{
+     padding: 15px 25px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background: transparent;
+    color: white;
+    border: white;
+    text-transform: uppercase;
+    border:  2px solid white;
+    font-size: 20px;
+}
+
+.welcome{
+    background: #f6f6f6;
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+.img-content{
+    padding: 40px 0px;
+
+}
+.img-content h2{
+    font-size: 40px;
+}
+.img-position{
+    position: relative;
+    top: 60px;
+}
+.img-center{
+    position: absolute;
+}
+.feature{
+    background: #28282e;
+     width: 100%;
+    float: left;
+    padding: 25px 0px;
+}
+.img-thing h2{
+    color: white;
+    
+}
+.img-thing p{
+    color: white;
+}
+.img-pos{
+    top: 30px;
+}
+
+footer{
+    background: #ef4035;
+    padding: 25px 0px;
+     width: 100%;
+}
+.last h5{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+
+@media (min-width:320px) and (max-width:500px){
+    font-size: 15px;
+}
+@media (min-width:501px) and (max-width:768px){
+    font-size: 20px;
+}
+@media (min-width:768.01px) and (max-width:992px){
+    font-size:25px;
+}
+@media (min-width:992px) and (max-width:1200){
+    font-size:default;
+}
+@media (min-width:1200px){
+    font-size:default;
+}
